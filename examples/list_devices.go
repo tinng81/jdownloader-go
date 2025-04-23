@@ -18,7 +18,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/rkosegi/jdownloader-go/jdownloader"
+	"github.com/tinng81/jdownloader-go/jdownloader"
 	"go.uber.org/zap"
 )
 
