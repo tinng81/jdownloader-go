@@ -10,7 +10,7 @@ This repository hosts code for [JDownloader](https://jdownloader.org/) client wr
 package main
 
 import (
-	"github.com/rkosegi/jdownloader-go/jdownloader"
+	"github.com/tinng81/jdownloader-go/jdownloader"
 	"go.uber.org/zap"
 )
 
