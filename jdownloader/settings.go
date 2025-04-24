@@ -66,7 +66,7 @@ func DefaultMyJdownloaderSettings() *MyJdownloaderSettings {
 		AutoConnectEnabledV2: true,
 		DebugEnabled:         false,
 		LastError:            "NONE",
-		ServerHost:           "api.jdownloader.org",
+		ServerHost:           "localhost",
 		DirectConnectMode:    "LAN",
 	}
 }
@@ -116,7 +116,7 @@ func DefaultProxyServerEntry() *ProxyServerEntry {
 		Proxy: &ProxyServer{
 			Type:                       "NONE",
 			Address:                    nil,
-			Port:                       80,
+			Port:                       8128,
 			PreferNativeImplementation: false,
 			ResolveHostName:            false,
 			Username:                   nil,

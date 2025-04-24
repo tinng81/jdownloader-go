@@ -32,7 +32,7 @@ import (
 )
 
 const (
-	apiEndpoint       = "https://api.jdownloader.org"
+	apiEndpoint       = "http://localhost:8128"
 	mediaType         = "application/aesjson-jd; charset=utf-8"
 	appName           = "jdownloader-clientgo"
 	paramSessionToken = "sessiontoken"
